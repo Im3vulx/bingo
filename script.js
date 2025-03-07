@@ -12,8 +12,8 @@ function generateUniqueNumber() {
 
   if (usedNumbers.size === 80) {
     alert("Tous les nombres ont été générés !");
-    usedNumbers.clear(); // Réinitialise la liste des nombres utilisés une fois tous les nombres générés
-    generatedNumbers.length = 0; // Réinitialise le tableau des nombres générés
+    usedNumbers.clear();
+    generatedNumbers.length = 0;
   }
 
   return randomNumber;
